@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Microstock Banners</title>
+    <meta name="description" content="Microstock Banners">
+    <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/microstock-banners.appspot.com/o/2bg.jpg?alt=media&token=7d93f9d9-0570-4988-b433-44ff70e323fa">
+
+    <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/microstock-banners.appspot.com/o/logo.jpg?alt=media&token=61d43f5a-be82-4a5a-a93c-5c26eae810ae">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+  </head>
+  <body style="margin: 0px;">
+
+    <style>
+      .microstock-banner {
+        height: 150px;
+        background-color: #000;
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/microstock-banners.appspot.com/o/2bg.jpg?alt=media&token=7d93f9d9-0570-4988-b433-44ff70e323fa);
+        background-size: cover;
+        background-position: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+      }
+      .microstock-banner:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.5;
+      }
+      .microstock-banner__content {
+        width: 100%;
+        padding: 0 1% 0 4%;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .microstock-banner__logo {
+        width: 120px;
+      }
+      .microstock-banner__left {
+        display: flex;
+        align-items: center;
+      }
+      .microstock-banner__text {
+        color: #fff;
+        margin: 0 10px;
+      }
+      .microstock-banner__text__top {
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      .microstock-banner__text__bottom {
+        max-width: 430px;
+        font-weight: 300;
+        font-size: 22px;
+      }
+      .microstock-banner__btn {
+        background-color: #03cbfe;
+        color: #fff;
+        border-width: 0;
+        text-transform: uppercase;
+        font-style: italic;
+        width: 268px;
+        font-size: 20px;
+        padding: 10px 10px;
+        box-sizing: border-box;
+        border-radius: 500px;
+        text-align: center;
+      }
+    </style>
+
+    <a class="microstock-banner" href="#">
+      <div class="microstock-banner__content">
+        <img class="microstock-banner__logo" src="https://firebasestorage.googleapis.com/v0/b/microstock-banners.appspot.com/o/logo.jpg?alt=media&token=61d43f5a-be82-4a5a-a93c-5c26eae810ae" alt="St Logo">
+        <div class="microstock-banner__left">
+          <div class="microstock-banner__text">
+            <div class="microstock-banner__text__top">Продавайте удачные кадры!</div>
+            <div class="microstock-banner__text__bottom">Быстрая регистрация без экзамена и удобная загрузка материалов</div>
+          </div>
+          <div class="microstock-banner__btn">Начать сейчас</div>
+        </div>
+      </div>
+    </a>
+
+  </body>
+</html>
